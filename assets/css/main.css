@@ -498,6 +498,7 @@ html {
   display: flex;
   -moz-column-gap: 7px;
        column-gap: 7px;
+  margin-bottom: 13.27px;
 }
 .mobile-menu__footer-language-link {
   text-decoration: none;
