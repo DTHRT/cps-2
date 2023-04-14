@@ -1,0 +1,53 @@
+@mixin tt-400 {
+  font-family: 'TT Lakes';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin tt-500 {
+  font-family: 'TT Lakes';
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin tt-700 {
+  font-family: 'TT Lakes';
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin reset-heading {
+  margin: 0;
+}
+
+@mixin reset-p {
+  margin: 0;
+}
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin reset-link {
+  text-decoration: none;
+  color: black;
+}
+
+@mixin input-reset {
+  background: none;
+  border: none;
+  &:focus-visible {
+    background: none;
+    border: none;
+    outline: none;
+  }
+}
+
+@mixin reset-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
