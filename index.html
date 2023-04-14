@@ -11,43 +11,57 @@
     <header class="mobile-menu">
       <nav class="mobile-menu__nav">
         <div class="mobile-menu__header">
-          <button class="mobile-menu__close-btn"></button>
-          <a href="#" class="mobile-menu__logo"></a>
-          <button class="mobile-menu__search-btn"></button>
+          <button class="mobile-menu__close-btn mobile-menu-btn">
+            <span class="visually-hidden">Бургер-меню</span>
+          </button>
+          <a href="#" class="mobile-menu__logo">
+            <span class="visually-hidden">Логотип</span>
+          </a>
+          <button class="mobile-menu__search-btn mobile-menu-btn">
+            <span class="visually-hidden">Поиск</span>
+          </button>
         </div>
 
         <ul class="mobile-menu__ul">
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link mobile-menu__link--active">
+              Ремонт техники
+            </a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Услуги и сервисы</a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Корпоративным клиентам</a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Продавцам техники</a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Партнерам</a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Производителям</a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Наши сервисные центры</a>
           </li>
           <li class="mobile-menu__li">
-            <a href="#" class="mobile-menu__link"></a>
+            <a href="#" class="mobile-menu__link">Контакты</a>
           </li>
         </ul>
 
         <div class="mobile-menu__footer">
           <div class="mobile-menu__footer-btns-container">
-            <button class="mobile-menu__phone"></button>
-            <button class="mobile-menu__message"></button>
-            <button class="mobile-menu__profile"></button>
+            <button class="mobile-menu__phone mobile-menu-btn">
+              <span class="visually-hidden">Позвонить нам</span>
+            </button>
+            <button class="mobile-menu__message mobile-menu-btn">
+              <span class="visually-hidden">Написать нам</span>
+            </button>
+            <button class="mobile-menu__profile mobile-menu-btn">
+              <span class="visually-hidden">Личный кабинет</span>
+            </button>
           </div>
 
           <div class="mobile-menu__footer-contacts-container">
@@ -62,10 +76,19 @@
 
           <ul class="mobile-menu__footer-languages-container">
             <li class="mobile-menu__footer-language">
-              <a href="#" class="mobile-menu__footer-language-link">RU</a>
+              <a
+                href="#"
+                class="mobile-menu__footer-language-link mobile-menu__footer-language-link--active"
+              >
+                RU
+              </a>
+            </li>
 
+            <li class="mobile-menu__footer-language">
               <a href="#" class="mobile-menu__footer-language-link">EN</a>
+            </li>
 
+            <li class="mobile-menu__footer-language">
               <a href="#" class="mobile-menu__footer-language-link">CH</a>
             </li>
           </ul>
